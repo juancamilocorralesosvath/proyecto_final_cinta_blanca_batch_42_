@@ -3,6 +3,30 @@
     margin: 0;
     padding: 0;
 }
+header{ 
+  width: 100%;
+  height: 600px;
+  background: black;  
+ background-size: cover ;
+ background-attachment: fixed;
+ position: relative;
+}
+
+nav{ 
+  text-align: right;
+  padding: 30px 50px 0 0;
+}
+nav > a{ 
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 10px;
+} 
+nav > a:hover{ 
+  text-decoration: underline;
+  color: purple;
+}
+
 .load{ 
     animation: slide 2s;
 }
@@ -35,6 +59,42 @@
 .principal p{ 
     font-size: 25px;
     margin-bottom: 20px ;
+}
+input{
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('./assets/searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+} 
+
+input:focus {
+  width: 100%;
+}
+
+.submit-btn{ 
+  width: 15%;
+  padding: 10px 30px;
+  display: block;
+  cursor: pointer;
+  margin: auto;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+
+}
+.clientes-contenedor p{ 
+    font-size: 25px;
+    margin-bottom: 20px ;
+    color: #fff;
+    text-align: center;
 }
 
 @keyframes slide{ 
@@ -77,7 +137,7 @@
   color: #fff;
   font-size: 60px;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .cards{ 
@@ -111,11 +171,13 @@
 .cards .card > .contenido-texto-card{ 
 
 width: 60%;
-color: #fff;   
+color: #fff;
+font-size: 30px;   
 }
 .cards .card > .contenido-texto-card p{ 
    font-weight: 300;
    padding-top: 5px;
+   font-size: 15px;
 }
 
 

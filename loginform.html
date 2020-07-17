@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login or Register</title>
+    <link rel="stylesheet" href="./loginformstyle.css">
+    <script src="https://kit.fontawesome.com/1c333844a0.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+    <img id="bienvenido" class="bienvenido" src="./assets/bienvenido.jpg" alt="bienvenido!">
+    <img id="felicidades" class="felicidades" src="./assets/felicidades.jpg" alt="">
+    <header id="header" >
+        <nav>
+            <a href="./index.html">Inicio</a>
+            <a href="./campos.html">Campos</a>
+            <a href="./loginform.html">Iniciar Sesion</a>
+            <a href="./juan_doroteo.html">Buscar</a>
+        </nav>
+
+
+    <div id="hero" class="hero"> 
+    
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn" ></div>
+                <button type="button" class="toggle-btn" onclick="login()" >Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+
+            </div>
+            <div class="social-icons"> 
+                <a href="https://es-la.facebook.com/"> <i class="fab fa-facebook-square"></i> </a>
+                <a href="https://twitter.com/explore"> <i class="fab fa-twitter-square"></i></a>
+                <a href="https://www.google.com/"> <i class="fab fa-google"></i></a>
+    
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="password" class="input-field" placeholder="Enter Password" required>
+
+                <input type="checkbox" class="chech-box" > <span>Remember Password</span>
+                <button id="loginbtn" type="submit" class="submit-btn" >Log in</button>
+
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+
+                <input type="email" class="input-field" placeholder="Email Id" required>
+                <input type="password" class="input-field" placeholder="Enter Password" required>
+
+                <input type="checkbox" class="chech-box" > <span>I Agree to the terms & conditions</span>
+                <button id="registerbtn" type="submit" class="submit-btn" >Register</button>
+
+            </form>
+
+
+        </div>
+
+        
+    </div>
+    
+    <script src="./loginformscript.js"></script>
+    
+</body>
+</html>

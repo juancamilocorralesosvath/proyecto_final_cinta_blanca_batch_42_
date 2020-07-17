@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap');
+header{ 
+    width: 100%;
+    height: 600px;
+    background: black;  
+   background-size: cover ;
+   background-attachment: fixed;
+   position: relative;
+  }
+  
+  nav{ 
+    text-align: right;
+    padding: 30px 50px 0 0;
+  }
+  nav > a{ 
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+  } 
+  nav > a:hover{ 
+    text-decoration: underline;
+    color: purple;
+  }
+   
+.contenedor-mas-grande{ 
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+ .padre {
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column; 
+}
+.imagen {
+    height: 900px;
+    width: 100%;
+    background-image: url(https://www.creditaria.com.mx/hubfs/Corporativo%20blog%20creditaria/10-empresarios-ma%CC%81s-ricos-en-Me%CC%81xico-2019.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen2 {
+    height: 900px;
+    width: 100%;
+    background-image: url(https://bitlifemedia.com/wp-content/uploads/2018/05/blockchain.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen3 {
+    height: 900px;
+    width: 100%;
+    background-image: url(https://www.masquenegocio.com/wp-content/uploads/2018/06/musica-ventas-spotwifi-874x492.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor {
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.boton {
+    font-family: 'Raleway';
+    height: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.buscador {
+    font-family: 'Raleway';
+    height: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buscar {
+    font-family: 'Raleway';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filtro {
+    font-family: 'Raleway';
+    background-color: ivory;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
